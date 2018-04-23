@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Dara Carolan",
+    "email": "daraclare@gmail.com"
+  },
+  {
+    "id": 2,
+    "name": "Telly Savalas",
+    "email": "kojak@home.com"
+  },
+  {
+    "id": 3,
+    "name": "Theo Juno",
+    "email": "mydogs@thepark.com"
+  }
+]

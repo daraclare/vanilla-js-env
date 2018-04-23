@@ -1,0 +1,17 @@
+version: '3'
+services:
+  template-js:
+    image: "${DOCKER_REPO_NAME}:${PROJECT_NAME_KEY}-${B}"
+    networks:
+      - swarm_network
+    ports:
+      - 4000:4000
+    environment:
+      - NODE_ENV=production
+    deploy:
+      mode: replicated
+      replicas: 1
+
+networks:
+  swarm_network:
+    external: true

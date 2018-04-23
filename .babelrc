@@ -1,0 +1,24 @@
+{
+  "presets": ["env", "es2017", "stage-0"],
+
+  "env": {
+    "production": {
+      "presets": [
+        [
+          "env",
+          {
+            "es2017": {
+              "modules": false
+            }
+          }
+        ]
+      ]
+    }
+  },
+
+  "env": {
+    "test": {
+      "plugins": ["istanbul"]
+    }
+  }
+}
